@@ -20,7 +20,7 @@ const numberOfBooksRead(const lb){
   let count=0;
 	for(let j=0;j<lb.length;lb++){
 		if (lb[i].readingStatus==true) {
-			count++;
+			count=count+1;
 		}
 	}
 	return count;
